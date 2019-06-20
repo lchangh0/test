@@ -1,0 +1,11 @@
+/home/user/temp/bin/Debug/netcoreapp2.2/temp.deps.json
+/home/user/temp/bin/Debug/netcoreapp2.2/temp.runtimeconfig.json
+/home/user/temp/bin/Debug/netcoreapp2.2/temp.runtimeconfig.dev.json
+/home/user/temp/bin/Debug/netcoreapp2.2/temp.dll
+/home/user/temp/bin/Debug/netcoreapp2.2/temp.pdb
+/home/user/temp/obj/Debug/netcoreapp2.2/temp.csprojAssemblyReference.cache
+/home/user/temp/obj/Debug/netcoreapp2.2/temp.csproj.CoreCompileInputs.cache
+/home/user/temp/obj/Debug/netcoreapp2.2/temp.AssemblyInfoInputs.cache
+/home/user/temp/obj/Debug/netcoreapp2.2/temp.AssemblyInfo.cs
+/home/user/temp/obj/Debug/netcoreapp2.2/temp.dll
+/home/user/temp/obj/Debug/netcoreapp2.2/temp.pdb
