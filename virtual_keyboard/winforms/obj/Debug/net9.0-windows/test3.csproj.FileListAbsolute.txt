@@ -1,0 +1,14 @@
+D:\temp\test3\bin\Debug\net9.0-windows\test3.exe
+D:\temp\test3\bin\Debug\net9.0-windows\test3.deps.json
+D:\temp\test3\bin\Debug\net9.0-windows\test3.runtimeconfig.json
+D:\temp\test3\bin\Debug\net9.0-windows\test3.dll
+D:\temp\test3\bin\Debug\net9.0-windows\test3.pdb
+D:\temp\test3\obj\Debug\net9.0-windows\test3.GeneratedMSBuildEditorConfig.editorconfig
+D:\temp\test3\obj\Debug\net9.0-windows\test3.AssemblyInfoInputs.cache
+D:\temp\test3\obj\Debug\net9.0-windows\test3.AssemblyInfo.cs
+D:\temp\test3\obj\Debug\net9.0-windows\test3.csproj.CoreCompileInputs.cache
+D:\temp\test3\obj\Debug\net9.0-windows\test3.dll
+D:\temp\test3\obj\Debug\net9.0-windows\refint\test3.dll
+D:\temp\test3\obj\Debug\net9.0-windows\test3.pdb
+D:\temp\test3\obj\Debug\net9.0-windows\test3.genruntimeconfig.cache
+D:\temp\test3\obj\Debug\net9.0-windows\ref\test3.dll
