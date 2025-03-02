@@ -3,7 +3,7 @@ namespace test3;
 
 public class CKey
 {
-    public int scanCode;
+    public ushort scanCode;
 
     public string keyText;
     public char key;
@@ -13,6 +13,44 @@ public class CKey
 
     public int posX;
     public int posY;
+
+    public string GetKeyText(bool bShift, bool bLocal)
+    {
+        string strText = null;
+
+        if (bLocal)
+        {
+            if (bShift)
+            {
+                if (keyLocalShift != 0)
+                    strText = keyLocalShift.ToString();
+            }
+            else
+            {
+                if (keyLocal != 0)
+                    strText = keyLocal.ToString();
+            }
+        }
+        else
+        {
+            if (bShift)
+            {
+                if (keyShift != 0)
+                    strText = keyShift.ToString();
+            }
+            else
+            {
+                if (key != 0)
+                    strText = key.ToString();
+            }
+        }
+
+        if (strText == null && keyText != null)
+            strText = keyText;
+
+        return strText;
+    }
+
 }
 
 
@@ -24,6 +62,21 @@ public class CKeys
     {
         keys = new List<CKey>();
     }
+
+    public CKey GetKey(int x, int y)
+    {
+        foreach (CKey key in keys)
+        {
+            if (key.posX == x && key.posY == y)
+            {
+                return key;
+            }
+        }
+
+        return null;
+    }
+
+    
 
     public void MakeKorKeys()
     {
@@ -42,9 +95,9 @@ public class CKeys
         keys.Add(new CKey() { scanCode = 11, key = '0', keyShift = ')', posX = 11, posY = 1 });
         keys.Add(new CKey() { scanCode = 12, key = '-', keyShift = '_', posX = 12, posY = 1 });
         keys.Add(new CKey() { scanCode = 13, key = '=', keyShift = '+', posX = 13, posY = 1 });
-        keys.Add(new CKey() { scanCode = 14, key = (char)0x08, posX = 14, posY = 1 }); // 백스페이스
+        keys.Add(new CKey() { scanCode = 14, keyText = "BackS", posX = 14, posY = 1 }); // 백스페이스
 
-        keys.Add(new CKey() { scanCode = 15, keyText = "Tab", key = (char)0x07, posX = 1, posY = 2 });
+        keys.Add(new CKey() { scanCode = 15, keyText = "Tab", posX = 1, posY = 2 });
         keys.Add(new CKey() { scanCode = 16, key = 'q', keyShift = 'Q', keyLocal = 'ㅂ', keyLocalShift = 'ㅃ', posX = 2, posY = 2 });
         keys.Add(new CKey() { scanCode = 17, key = 'w', keyShift = 'W', keyLocal = 'ㅈ', keyLocalShift = 'ㅉ', posX = 3, posY = 2 });
         keys.Add(new CKey() { scanCode = 18, key = 'e', keyShift = 'E', keyLocal = 'ㄷ', keyLocalShift = 'ㄸ', posX = 4, posY = 2 });
@@ -71,7 +124,7 @@ public class CKeys
         keys.Add(new CKey() { scanCode = 38, key = 'l', keyShift = 'L', keyLocal = 'ㅣ', posX = 10, posY = 3 });
         keys.Add(new CKey() { scanCode = 39, key = ';', keyShift = ':', posX = 11, posY = 3 });
         keys.Add(new CKey() { scanCode = 40, key = '\'', keyShift = '"', posX = 12, posY = 3 });
-        keys.Add(new CKey() { scanCode = 28, keyText = "Enter",  key = (char)0x13, posX = 13, posY = 3 });
+        keys.Add(new CKey() { scanCode = 28, keyText = "Enter", posX = 13, posY = 3 });
 
         keys.Add(new CKey() { scanCode = 42, keyText = "Shift", posX = 1, posY = 4 });
         keys.Add(new CKey() { scanCode = 44, key = 'z', keyShift = 'Z', keyLocal = 'ㅋ', posX = 2, posY = 4 });
@@ -90,9 +143,9 @@ public class CKeys
         keys.Add(new CKey() { scanCode = 56, keyText = "Alt", posX = 2, posY = 5 });
         keys.Add(new CKey() { scanCode = 219, keyText = "Win", posX = 3, posY = 5 });
         keys.Add(new CKey() { scanCode = 57, keyText = "Space", posX = 4, posY = 5 });
-        keys.Add(new CKey() { scanCode = 184, keyText = "한/영", posX = 5, posY = 5 });
-        keys.Add(new CKey() { scanCode = 157, keyText = "Ctrl", posX = 6, posY = 5 });
-
+        keys.Add(new CKey() { scanCode = 114, keyText = "한/영", posX = 5, posY = 5 });
+        keys.Add(new CKey() { scanCode = 184, keyText = "Alt", posX = 6, posY = 5 });
+        keys.Add(new CKey() { scanCode = 157, keyText = "Ctrl", posX = 7, posY = 5 });
     }
 
 }

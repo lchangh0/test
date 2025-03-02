@@ -37,19 +37,33 @@ public partial class Form1 : Form
     TextBox testTextBox;
     TextBox testTextBox2;
     TextBox testTextBox3;
+    CKeys keys = new CKeys();
 
     private void AddControls()
     {
-        for (int i = 0; i < 5; i++)
+        
+        keys.MakeKorKeys();
+
+        for(int iGY = 1; iGY <= 5; iGY++)
         {
-            Button testButton = new Button();
-            testButton.Name = $"testButton{i + 1}";
-            testButton.Text = $"Test Button {i + 1}";
-            testButton.Size = new Size(100, 30);
-            testButton.Location = new Point(10, 10 + (i * 40));
-            testButton.Click += TestButton_Click;
-            this.Controls.Add(testButton);
+            for(int iGX = 1; iGX <= 14; iGX++)
+            {
+                CKey key = keys.GetKey(iGX, iGY);
+                if (key != null)
+                {
+                    Button btn = new Button();
+                    btn.Name = $"btn_{key.key}";
+                    btn.Text = key.GetKeyText(bShift:false, bLocal:false);
+                    btn.Tag = key.scanCode;
+                    btn.Size = new Size(50, 30);
+                    btn.Location = new Point(10 + (iGX * btn.Size.Width), 10 + (iGY * btn.Size.Height));
+                    btn.Click += TestButton_Click;
+                    this.Controls.Add(btn);
+                }
+            }
+
         }
+
 
         testTextBox = new TextBox();
         testTextBox.Name = "testTextBox";
@@ -75,17 +89,10 @@ public partial class Form1 : Form
     {
         this.ActiveControl = null;
         Button clickedButton = sender as Button;
+        if (clickedButton == null)
+            return;
         
-        string strBtnText = clickedButton.Text;
-        
-        ushort keyScanCode = 0;
-        if (strBtnText == "Test Button 1")
-            keyScanCode = 30;   // A
-        else if (strBtnText == "Test Button 2")
-            keyScanCode = 37;   // K
-        else if (strBtnText == "Test Button 3")
-            keyScanCode = 32;   // D
-
+        ushort keyScanCode = (ushort)clickedButton.Tag;
         testTextBox3.Text = keyScanCode.ToString();
 
         SimulateKeyPress(keyScanCode);
