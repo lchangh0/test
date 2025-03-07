@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net9.0-windows7.0": {}
+    "net8.0-windows7.0": {
+      "KeyboardLib/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/KeyboardLib.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/KeyboardLib.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "KeyboardLib/1.0.0": {
+      "type": "project",
+      "path": "../KeyboardLib/KeyboardLib.csproj",
+      "msbuildProject": "../KeyboardLib/KeyboardLib.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net9.0-windows7.0": []
+    "net8.0-windows7.0": [
+      "KeyboardLib >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\user\\.nuget\\packages\\": {},
@@ -14,9 +33,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\code\\test\\virtual_keyboard\\winforms\\test3.csproj",
-      "projectName": "test3",
-      "projectPath": "D:\\code\\test\\virtual_keyboard\\winforms\\test3.csproj",
+      "projectUniqueName": "D:\\code\\test\\virtual_keyboard\\winforms\\testWinForms.csproj",
+      "projectName": "testWinForms",
+      "projectPath": "D:\\code\\test\\virtual_keyboard\\winforms\\testWinForms.csproj",
       "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
       "outputPath": "D:\\code\\test\\virtual_keyboard\\winforms\\obj\\",
       "projectStyle": "PackageReference",
@@ -29,7 +48,7 @@
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
-        "net9.0-windows"
+        "net8.0-windows7.0"
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
@@ -37,9 +56,13 @@
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "net9.0-windows7.0": {
-          "targetAlias": "net9.0-windows",
-          "projectReferences": {}
+        "net8.0-windows7.0": {
+          "targetAlias": "net8.0-windows7.0",
+          "projectReferences": {
+            "D:\\code\\test\\virtual_keyboard\\KeyboardLib\\KeyboardLib.csproj": {
+              "projectPath": "D:\\code\\test\\virtual_keyboard\\KeyboardLib\\KeyboardLib.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -50,13 +73,12 @@
       "restoreAuditProperties": {
         "enableAudit": "true",
         "auditLevel": "low",
-        "auditMode": "all"
-      },
-      "SdkAnalysisLevel": "9.0.100"
+        "auditMode": "direct"
+      }
     },
     "frameworks": {
-      "net9.0-windows7.0": {
-        "targetAlias": "net9.0-windows",
+      "net8.0-windows7.0": {
+        "targetAlias": "net8.0-windows7.0",
         "imports": [
           "net461",
           "net462",
@@ -76,7 +98,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.304/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
