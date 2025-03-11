@@ -19,3 +19,6 @@ D:\code\test\virtual_keyboard\winforms\obj\Debug\net8.0-windows7.0\refint\testWi
 D:\code\test\virtual_keyboard\winforms\obj\Debug\net8.0-windows7.0\testWinForms.pdb
 D:\code\test\virtual_keyboard\winforms\obj\Debug\net8.0-windows7.0\testWinForms.genruntimeconfig.cache
 D:\code\test\virtual_keyboard\winforms\obj\Debug\net8.0-windows7.0\ref\testWinForms.dll
+D:\code\test\virtual_keyboard\winforms\bin\Debug\net8.0-windows7.0\System.CodeDom.dll
+D:\code\test\virtual_keyboard\winforms\bin\Debug\net8.0-windows7.0\System.Management.dll
+D:\code\test\virtual_keyboard\winforms\bin\Debug\net8.0-windows7.0\runtimes\win\lib\net8.0\System.Management.dll

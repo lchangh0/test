@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("testAvalonia")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0294f127cfa70a23df11d4163e051ed235e93a08")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d0d4326747c4a7b0b9edc378751e2c23bb9355fb")]
 [assembly: System.Reflection.AssemblyProductAttribute("testAvalonia")]
 [assembly: System.Reflection.AssemblyTitleAttribute("testAvalonia")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

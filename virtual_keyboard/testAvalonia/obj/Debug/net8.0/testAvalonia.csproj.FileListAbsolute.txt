@@ -66,3 +66,5 @@ D:\code\test\virtual_keyboard\testAvalonia\obj\Debug\net8.0\refint\Avalonia\test
 D:\code\test\virtual_keyboard\testAvalonia\obj\Debug\net8.0\testAval.D873EC58.Up2Date
 D:\code\test\virtual_keyboard\testAvalonia\obj\Debug\net8.0\testAvalonia.genruntimeconfig.cache
 D:\code\test\virtual_keyboard\testAvalonia\obj\Debug\net8.0\ref\testAvalonia.dll
+D:\code\test\virtual_keyboard\testAvalonia\bin\Debug\net8.0\KeyboardLib.dll
+D:\code\test\virtual_keyboard\testAvalonia\bin\Debug\net8.0\KeyboardLib.pdb

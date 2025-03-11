@@ -3,36 +3,16 @@
   "WorkspaceRootPath": "D:\\code\\test\\virtual_keyboard\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C7239A61-311D-48BA-8383-4385F3A87F70}|testAvalonia\\testAvalonia.csproj|d:\\code\\test\\virtual_keyboard\\testavalonia\\app.manifest||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{C7239A61-311D-48BA-8383-4385F3A87F70}|testAvalonia\\testAvalonia.csproj|solutionrelative:testavalonia\\app.manifest||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C7239A61-311D-48BA-8383-4385F3A87F70}|testAvalonia\\testAvalonia.csproj|d:\\code\\test\\virtual_keyboard\\testavalonia\\app.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
-      "RelativeMoniker": "D:0:0:{C7239A61-311D-48BA-8383-4385F3A87F70}|testAvalonia\\testAvalonia.csproj|solutionrelative:testavalonia\\app.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C7239A61-311D-48BA-8383-4385F3A87F70}|testAvalonia\\testAvalonia.csproj|d:\\code\\test\\virtual_keyboard\\testavalonia\\mainwindow.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
-      "RelativeMoniker": "D:0:0:{C7239A61-311D-48BA-8383-4385F3A87F70}|testAvalonia\\testAvalonia.csproj|solutionrelative:testavalonia\\mainwindow.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C7239A61-311D-48BA-8383-4385F3A87F70}|testAvalonia\\testAvalonia.csproj|d:\\code\\test\\virtual_keyboard\\testavalonia\\mainwindow.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C7239A61-311D-48BA-8383-4385F3A87F70}|testAvalonia\\testAvalonia.csproj|solutionrelative:testavalonia\\mainwindow.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9E6AA403-6764-1CBF-33D7-2549EA7039E6}|winforms\\test3.csproj|d:\\code\\test\\virtual_keyboard\\winforms\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9E6AA403-6764-1CBF-33D7-2549EA7039E6}|winforms\\test3.csproj|solutionrelative:winforms\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9E6AA403-6764-1CBF-33D7-2549EA7039E6}|winforms\\testWinForms.csproj|d:\\code\\test\\virtual_keyboard\\winforms\\testwinforms.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{9E6AA403-6764-1CBF-33D7-2549EA7039E6}|winforms\\testWinForms.csproj|solutionrelative:winforms\\testwinforms.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9E6AA403-6764-1CBF-33D7-2549EA7039E6}|winforms\\test3.csproj|d:\\code\\test\\virtual_keyboard\\winforms\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{9E6AA403-6764-1CBF-33D7-2549EA7039E6}|winforms\\test3.csproj|solutionrelative:winforms\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{9E6AA403-6764-1CBF-33D7-2549EA7039E6}|winforms\\testWinForms.csproj|d:\\code\\test\\virtual_keyboard\\winforms\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E6AA403-6764-1CBF-33D7-2549EA7039E6}|winforms\\testWinForms.csproj|solutionrelative:winforms\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{16872983-3833-49E8-8F6F-B70702B6728D}|KeyboardLib\\KeyboardLib.csproj|d:\\code\\test\\virtual_keyboard\\keyboardlib\\ckeyboardapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{16872983-3833-49E8-8F6F-B70702B6728D}|KeyboardLib\\KeyboardLib.csproj|solutionrelative:keyboardlib\\ckeyboardapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7239A61-311D-48BA-8383-4385F3A87F70}|testAvalonia\\testAvalonia.csproj|d:\\code\\test\\virtual_keyboard\\testavalonia\\mainwindow.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7239A61-311D-48BA-8383-4385F3A87F70}|testAvalonia\\testAvalonia.csproj|solutionrelative:testavalonia\\mainwindow.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,21 +22,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 252,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 4,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "app.manifest",
-              "DocumentMoniker": "D:\\code\\test\\virtual_keyboard\\testAvalonia\\app.manifest",
-              "RelativeDocumentMoniker": "testAvalonia\\app.manifest",
-              "ToolTip": "D:\\code\\test\\virtual_keyboard\\testAvalonia\\app.manifest*",
-              "RelativeToolTip": "testAvalonia\\app.manifest*",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001203|",
-              "WhenOpened": "2025-03-06T07:26:05.436Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
@@ -75,90 +42,41 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "App.axaml",
-              "DocumentMoniker": "D:\\code\\test\\virtual_keyboard\\testAvalonia\\App.axaml",
-              "RelativeDocumentMoniker": "testAvalonia\\App.axaml",
-              "ToolTip": "D:\\code\\test\\virtual_keyboard\\testAvalonia\\App.axaml",
-              "RelativeToolTip": "testAvalonia\\App.axaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-03-06T04:46:46.746Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "MainWindow.axaml",
-              "DocumentMoniker": "D:\\code\\test\\virtual_keyboard\\testAvalonia\\MainWindow.axaml",
-              "RelativeDocumentMoniker": "testAvalonia\\MainWindow.axaml",
-              "ToolTip": "D:\\code\\test\\virtual_keyboard\\testAvalonia\\MainWindow.axaml",
-              "RelativeToolTip": "testAvalonia\\MainWindow.axaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-03-06T04:26:20.809Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "MainWindow.axaml.cs",
-              "DocumentMoniker": "D:\\code\\test\\virtual_keyboard\\testAvalonia\\MainWindow.axaml.cs",
-              "RelativeDocumentMoniker": "testAvalonia\\MainWindow.axaml.cs",
-              "ToolTip": "D:\\code\\test\\virtual_keyboard\\testAvalonia\\MainWindow.axaml.cs",
-              "RelativeToolTip": "testAvalonia\\MainWindow.axaml.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-06T04:26:20.614Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "CKeyboardApi.cs",
-              "DocumentMoniker": "D:\\code\\test\\virtual_keyboard\\KeyboardLib\\CKeyboardApi.cs",
-              "RelativeDocumentMoniker": "KeyboardLib\\CKeyboardApi.cs",
-              "ToolTip": "D:\\code\\test\\virtual_keyboard\\KeyboardLib\\CKeyboardApi.cs",
-              "RelativeToolTip": "KeyboardLib\\CKeyboardApi.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAkAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-06T04:15:17.763Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "Form1.cs",
               "DocumentMoniker": "D:\\code\\test\\virtual_keyboard\\winforms\\Form1.cs",
               "RelativeDocumentMoniker": "winforms\\Form1.cs",
               "ToolTip": "D:\\code\\test\\virtual_keyboard\\winforms\\Form1.cs",
               "RelativeToolTip": "winforms\\Form1.cs",
-              "ViewState": "AQIAAAEAAAAAAAAAAAAcwF4AAAAAAAAA",
+              "ViewState": "AQIAACMAAAAAAAAAAAAcwDEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-06T04:03:11.46Z",
+              "WhenOpened": "2025-03-11T07:39:29.988Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Form1.cs [\uB514\uC790\uC778]",
-              "DocumentMoniker": "D:\\code\\test\\virtual_keyboard\\winforms\\Form1.cs",
-              "RelativeDocumentMoniker": "winforms\\Form1.cs",
-              "ToolTip": "D:\\code\\test\\virtual_keyboard\\winforms\\Form1.cs [\uB514\uC790\uC778]",
-              "RelativeToolTip": "winforms\\Form1.cs [\uB514\uC790\uC778]",
+              "DocumentIndex": 1,
+              "Title": "CKeyboardApi.cs",
+              "DocumentMoniker": "D:\\code\\test\\virtual_keyboard\\KeyboardLib\\CKeyboardApi.cs",
+              "RelativeDocumentMoniker": "KeyboardLib\\CKeyboardApi.cs",
+              "ToolTip": "D:\\code\\test\\virtual_keyboard\\KeyboardLib\\CKeyboardApi.cs",
+              "RelativeToolTip": "KeyboardLib\\CKeyboardApi.cs",
+              "ViewState": "AQIAAIIAAAAAAAAAAAAMwIsAAABRAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-06T04:03:04.526Z",
-              "EditorCaption": " [\uB514\uC790\uC778]"
+              "WhenOpened": "2025-03-11T04:58:44.548Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "testWinForms.csproj",
-              "DocumentMoniker": "D:\\code\\test\\virtual_keyboard\\winforms\\testWinForms.csproj",
-              "RelativeDocumentMoniker": "winforms\\testWinForms.csproj",
-              "ToolTip": "D:\\code\\test\\virtual_keyboard\\winforms\\testWinForms.csproj",
-              "RelativeToolTip": "winforms\\testWinForms.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAANAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-03-06T04:01:53.624Z",
+              "DocumentIndex": 2,
+              "Title": "MainWindow.axaml.cs",
+              "DocumentMoniker": "D:\\code\\test\\virtual_keyboard\\testAvalonia\\MainWindow.axaml.cs",
+              "RelativeDocumentMoniker": "testAvalonia\\MainWindow.axaml.cs",
+              "ToolTip": "D:\\code\\test\\virtual_keyboard\\testAvalonia\\MainWindow.axaml.cs",
+              "RelativeToolTip": "testAvalonia\\MainWindow.axaml.cs",
+              "ViewState": "AQIAAIQAAAAAAAAAAAAMwJMAAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-11T04:55:40.767Z",
               "EditorCaption": ""
             }
           ]

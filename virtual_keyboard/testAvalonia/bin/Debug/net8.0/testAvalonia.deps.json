@@ -12,7 +12,8 @@
           "Avalonia.Desktop": "11.2.1",
           "Avalonia.Diagnostics": "11.2.1",
           "Avalonia.Fonts.Inter": "11.2.1",
-          "Avalonia.Themes.Fluent": "11.2.1"
+          "Avalonia.Themes.Fluent": "11.2.1",
+          "KeyboardLib": "1.0.0"
         },
         "runtime": {
           "testAvalonia.dll": {}
@@ -419,6 +420,11 @@
             "fileVersion": "0.20.0.0"
           }
         }
+      },
+      "KeyboardLib/1.0.0": {
+        "runtime": {
+          "KeyboardLib.dll": {}
+        }
       }
     }
   },
@@ -630,6 +636,11 @@
       "sha512": "sha512-2gkt2kuYPhDKd8gtl34jZSJOnn4nRJfFngCDcTZT/uySbK++ua0YQx2418l9Rn1Y4dE5XNq6zG9ZsE5ltLlNNw==",
       "path": "tmds.dbus.protocol/0.20.0",
       "hashPath": "tmds.dbus.protocol.0.20.0.nupkg.sha512"
+    },
+    "KeyboardLib/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     }
   }
 }

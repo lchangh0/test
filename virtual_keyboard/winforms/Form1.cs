@@ -2,6 +2,8 @@ using KeyboardLib;
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 using System.Windows.Forms;
+using System.Management;
+using Microsoft.Win32;
 
 namespace test3;
 
@@ -18,27 +20,49 @@ public partial class Form1 : Form
         this.Load += Form1_Load;
     }
 
-    // 폼에 입력 포커스가 가지 않게 한다.
-    // SendInput() API가 정상 동작하려면 가상키보드 화면에 포커스가 설정되면 안된다.
-    protected override CreateParams CreateParams
+
+    System.Windows.Forms.Timer _timer1;
+
+    private void Form1_Load(object sender, EventArgs e)
     {
-        get
+        IntPtr handle = this.Handle;
+        CKeyboardApi.SetWindowNoActivate(handle);
+
+        _timer1 = new System.Windows.Forms.Timer();
+        _timer1.Interval = 1000;
+        _timer1.Tick += _timer1_Tick;
+        _timer1.Enabled = true;
+    }
+
+    bool _bInTimer1 = false;
+    string _strDebugText = "";
+
+    private void _timer1_Tick(object? sender, EventArgs e)
+    {
+        if (_bInTimer1) return;
+        
+        _bInTimer1 = true;
+        try
         {
-            CreateParams cp = base.CreateParams;
-            cp.ExStyle |= 0x08000000;
-            return cp;
+            string strText = "";
+
+            if (strText != _strDebugText)
+            {
+                _strDebugText = strText;
+                testTextBox.Text = strText;
+            }
+        }
+        finally
+        {
+            _bInTimer1 = false;
         }
     }
 
 
-    private void Form1_Load(object sender, EventArgs e)
-    {
-    }
-
     TextBox testTextBox;
     TextBox testTextBox2;
     TextBox testTextBox3;
-    CKeys keys = new CKeys();
+    CKeyboard keys = new CKeyboard();
 
     private void AddControls()
     {
@@ -68,21 +92,22 @@ public partial class Form1 : Form
 
         testTextBox = new TextBox();
         testTextBox.Name = "testTextBox";
-        testTextBox.Size = new Size(100, 30);
-        testTextBox.Location = new Point(10, 210);
+        testTextBox.Size = new Size(400, 30);
+        testTextBox.Location = new Point(10, 310);
         this.Controls.Add(testTextBox);
 
         testTextBox2 = new TextBox();
         testTextBox2.Name = "testTextBox2";
-        testTextBox2.Size = new Size(100, 30);
-        testTextBox2.Location = new Point(10, 250);
+        testTextBox2.Size = new Size(400, 30);
+        testTextBox2.Location = new Point(10, 350);
         this.Controls.Add(testTextBox2);
 
         testTextBox3 = new TextBox();
         testTextBox3.Name = "testTextBox3";
-        testTextBox3.Size = new Size(100, 30);
-        testTextBox3.Location = new Point(10, 280);
+        testTextBox3.Size = new Size(400, 30);
+        testTextBox3.Location = new Point(10, 380);
         this.Controls.Add(testTextBox3);
+
     }
 
 
