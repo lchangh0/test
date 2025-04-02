@@ -78,6 +78,8 @@ namespace KeyboardLib
         [DllImport("user32.dll", SetLastError = true)]
         public static extern uint GetWindowThreadProcessId(IntPtr hWnd, out uint lpdwProcessId);
 
+        // 주의) 같은 프로세스 내에서만 정상동작하고
+        // 다른 프로세스의 윈도우 핸들을 사용하면 0을 반환한다.
         [DllImport("imm32.dll")]
         public static extern IntPtr ImmGetContext(IntPtr hWnd);
 
