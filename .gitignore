@@ -1,0 +1,10 @@
+.svn/
+.vs/
+.vscode/
+
+**/bin/
+**/obj/
+**/packages/
+
+*.user
+
